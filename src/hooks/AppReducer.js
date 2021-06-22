@@ -18,7 +18,7 @@ export default function appReducer(state, action) {
   
         return {
           ...state,
-          employees: updatedCourses,
+          courses: updatedCourses,
         };
   
       case "REMOVE_COURSE":
